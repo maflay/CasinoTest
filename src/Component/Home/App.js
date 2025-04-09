@@ -1,8 +1,10 @@
 
 import '../../Styles/App.css';
-// import Header from '../Menu/Header-one';
+import '../../Styles/index.css'
 import Navbar from '../Menu/Navbar';
-import LoginRegister from '../LoginRegister/LoginRegister';
+// import Header from '../Menu/Header-one';
+// import LoginRegister from '../LoginRegister/LoginRegister';
+import Servicio from '../Servicios/index'
 
 
 function App() {
@@ -10,6 +12,14 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <LoginRegister /> */}
+      {/* <div className='tittle-home'>
+        <center>
+          <h1 className='label-subtittle italiana-regular'>CASINO ALADDIN, <br />
+            Reta tu suerte y gana apostando
+          </h1>
+        </center>
+      </div> */}
+      <Servicio />
     </div>
   );
 }

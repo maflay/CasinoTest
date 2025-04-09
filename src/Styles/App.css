@@ -1,21 +1,37 @@
-body{
-  background-image: url(../resources/fondo.jpg);
+body {
+
+}
+
+/*Vista menu*/
+.desplegable {
+  background: transparent;
+}
+
+.tittle-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.label-subtittle {
+  overflow: hidden;
+  font-size: 50px;
+  color: #fff;
+}
+
+.App {
+  /* background-image: url(../resources/fondo.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
-}
-
-/*Vista menu*/
-.desplegable{
-  background: transparent;
-
-
+  z-index: 1000;
 }
 
 @media (max-width: 700px) {
 
-  body{
+  body {
     background-image: url(../resources//fondo_movil.jpg);
   }
 }
