@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from '../../resources/logo.png';
 import "../../Styles/Navbar.css"
 
-function Navbar(params) {
+function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
@@ -14,6 +14,7 @@ function Navbar(params) {
                 <a href="/servicios">Servicios</a>
                 <a href="/intereses">De tus intereses</a>
                 <a href="/nosotros">Nosotros</a>
+                <a href="/nosotros">Login</a>
             </div>
             <div className={`nav-toggle ${isOpen && "open"}`} 
             onClick={() => setIsOpen(!isOpen)}>
