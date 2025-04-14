@@ -4,21 +4,17 @@ import '../../Styles/index.css'
 import Navbar from '../Menu/Navbar';
 // import Header from '../Menu/Header-one';
 // import LoginRegister from '../LoginRegister/LoginRegister';
-import Servicio from '../Servicios/index'
+import SecondPage from '../SecondPage/Index.js'
+import FirsPage from '../FirstPage/Index.js'
+import Servicio from '../Servicios/index.js'
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <LoginRegister /> */}
-      {/* <div className='tittle-home'>
-        <center>
-          <h1 className='label-subtittle italiana-regular'>CASINO ALADDIN, <br />
-            Reta tu suerte y gana apostando
-          </h1>
-        </center>
-      </div> */}
+      <FirsPage />
+      <SecondPage />
       <Servicio />
     </div>
   );

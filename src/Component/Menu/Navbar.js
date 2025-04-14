@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../../resources/ALADDIN-GOLD.png';
+import logo from '../../resources/marcopolo.png';
 import "../../Styles/Navbar.css"
 
 function Navbar() {
@@ -8,7 +8,7 @@ function Navbar() {
         <>
             <div className="">
                 <div className="Navbar">
-                    <img className="logo-menu" src={logo} alt="logo"></img>
+                <img className="logo-menu" src={logo} alt="logo"></img>
                     <div className={`nav-items ${isOpen && "open"}`}>
                         <a href="/home">Home</a>
                         <a href="/servicios">Servicios</a>

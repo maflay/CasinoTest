@@ -1,7 +1,3 @@
-import React from "react";
-import '../../Styles/servicio.css'
-import casaladdin from '../../resources/fondo.jpg'
-import Division from '../../resources/Division-completa.png'
 import Maquina1 from '../../resources/Maquina1V2.png'
 import Maquina2 from '../../resources/Maquina2V2.png'
 import Maquina3 from '../../resources/Maquina3V2.png'
@@ -10,7 +6,7 @@ import Coctel1 from '../../resources/coctel1.jpg'
 import Coctel2 from '../../resources/coctel2.jpg'
 import Coctel3 from '../../resources/coctel3.jpg'
 
-function index() {
+function Index() {
 
     let nombreMaq1 = "Maquina1";
     let DescriMaqui1 = "Premio $15'000.000";
@@ -18,10 +14,12 @@ function index() {
     let DescriMaqui2 = "Premio $25'000.000";
     let nombreMaq3 = "Maquina3";
     let DescriMaqui3 = "Premio $45'000.000";
-
     return (
         <>
             <div>
+                <div>
+                    <div>
+                    <div>
                 <br />
                 <center>
                     <div className="content-machin">
@@ -55,10 +53,20 @@ function index() {
                     </div>
                 </center>
                 <br />
-                <div className="divisionM">
-                    <img src={DivisionM} alt="division" />
-                    <h1 className="tittle-drink italiana-regular">Para sentirte mas comodo y seguir retando tu suerte</h1>
-                </div>
+                <br />
+                <br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
+                <br /><br />
                 <br />
                 <center>
                     <div className="content-machin">
@@ -92,8 +100,11 @@ function index() {
                     </div>
                 </center>
             </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
 
-export default index;
+export default Index;
