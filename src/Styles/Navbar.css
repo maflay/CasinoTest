@@ -1,5 +1,5 @@
 body {
-background-image: url(../resources/fondo.jpg);
+    /* background-image: url(../resources/fondo.jpg); */
 
 }
 
@@ -9,8 +9,18 @@ background-image: url(../resources/fondo.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: brown; */
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: background-color 1.5s ease;
+    background-color: transparent; /* Por defecto transparente */
 }
+
+.Navbar.navbar-scrolled {
+    background-color: black; /* Se vuelve negro al hacer scroll */
+  }
 
 .Navbar>.nav-logo {
     font-weight: 700;
@@ -53,11 +63,31 @@ background-image: url(../resources/fondo.jpg);
 }
 
 .logo-menu {
-    width: 150px;
+    width: 200px;
+    left: 0;
     padding-left: 1%;
-    padding-top: 10px
-    ;
+    padding-top: 20px;
+    position: relative;
 }
+
+/* Centrar el menú */
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Toggle a la derecha */
+.nav-toggle {
+    position: absolute;
+    right: 20px;
+}
+
+
+
 
 @media (max-width: 700px) {
 

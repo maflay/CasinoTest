@@ -1,18 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from '../../resources/marcopolo.png';
 import "../../Styles/Navbar.css"
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const offset = window.scrollY;
+          setScrolled(offset > 50); 
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+
     return (
         <>
             <div className="">
-                <div className="Navbar">
-                <img className="logo-menu" src={logo} alt="logo"></img>
+                <div className={`Navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+                    <a href="#">
+                    <img className="logo-menu" src={logo} alt="logo"></img>
+                    </a>
                     <div className={`nav-items ${isOpen && "open"}`}>
                         <a href="/home">Home</a>
                         <a href="/servicios">Servicios</a>
-                        <a href="/intereses">De tus intereses</a>
+                        <a href="/intereses">intereses</a>
                         <a href="/nosotros">Nosotros</a>
                         <a href="/nosotros">Login</a>
                     </div>

@@ -1,4 +1,19 @@
-.img-first{
-    background: transparent;
-    z-index: -1000;
+.hero-section {
+    height: 100vh;
+    background-image:
+        linear-gradient(to bottom, rgb(5, 5, 5), rgba(0, 0, 0, 0)),
+        url(../../resources/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
 }
