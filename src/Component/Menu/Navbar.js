@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import logo from '../../resources/marcopolo.png';
-import "../../Styles/Navbar.css"
+import "./Navbar.css"
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
                         <a href="/servicios">Servicios</a>
                         <a href="/intereses">intereses</a>
                         <a href="/nosotros">Nosotros</a>
-                        <a href="/nosotros">Login</a>
+                        <a href="/login">Login</a>
                     </div>
                     <div className={`nav-toggle ${isOpen && "open"}`}
                         onClick={() => setIsOpen(!isOpen)}>

@@ -1,5 +1,5 @@
 import { FaUser, FaLock, FaEnvelope } from 'react-icons/fa';
-import '../../Styles/LoginRegister.css'
+import './LoginRegister.css'
 
 const LoginRegister = () => {
     return (
@@ -29,6 +29,7 @@ const LoginRegister = () => {
                         <div className="register-link">
                             <p>No tienes cuenta? <a href="#">Registrarse</a></p>
                         </div>
+                        <div className='register-link btn-ini'><p><a href='#'>Inicio</a></p></div>
                     </form>
                 </div>
             </div>

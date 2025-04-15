@@ -1,49 +1,84 @@
 .footer {
-    height: 500px;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    padding: 40px 20px 20px;
-    font-family: Arial, sans-serif;
+  height: 500px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.footer-logo {
+  padding: 0;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.footer-section ul li a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.footer a {
+  color: white;
+  padding: 10px;
+}
+
+.footer .footer-icons a:hover {
+  color: rgb(170, 91, 250);
+}
+
+.footer-icons {
+  display: flex;
+  padding-left: 27px;
+  font-size: 25px;
+}
+
+@media (max-width :600px) {
+  .footer-logo {
+    padding-left: 84px;
   }
-  
-  .footer-content {
+
+  .footer-icons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
-    max-width: 1200px;
-    margin: auto;
+    padding-left: 32%;
+    font-size: 15px;
   }
-  
-  .footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 8px;
-  }
-  
-  .footer-section ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    opacity: 0.8;
-    transition: opacity 0.3s;
-  }
-  
-  .footer-section ul li a:hover {
-    opacity: 1;
-  }
-  
+
   .footer-bottom {
     text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
-    opacity: 0.6;
+    color: black;
   }
-  
+}

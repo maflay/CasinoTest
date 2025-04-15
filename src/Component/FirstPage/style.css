@@ -22,8 +22,8 @@
     .hero-section {
         height: 100vh;
         background-image:
-            linear-gradient(to bottom, rgb(68, 68, 68), rgba(0, 0, 0, 0)),
-            url(../../resources/fondo.jpg);
+            linear-gradient(to bottom, rgb(20, 20, 20), rgba(0, 0, 0, 0)),
+            url(../../resources/fondo_movil.jpg);
         background-size: cover;
         background-position: center;
         position: relative;

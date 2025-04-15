@@ -1,20 +1,13 @@
 body {
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 /*Vista menu*/
 .desplegable {
   background: transparent;
-}
-
-.tittle-home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
 }
 
 .label-subtittle {
@@ -24,7 +17,6 @@ overflow-x: hidden;
 }
 
 .App {
-  /* background-image: url(../resources/fondo.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,6 +27,9 @@ overflow-x: hidden;
 @media (max-width: 700px) {
 
   body {
-    /* background-image: url(../resources/fondo_movil.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 }
