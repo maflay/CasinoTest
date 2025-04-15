@@ -8,22 +8,23 @@ function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-          const offset = window.scrollY;
-          setScrolled(offset > 50); 
+            const offset = window.scrollY;
+            setScrolled(offset > 50);
         };
-    
+
         window.addEventListener("scroll", handleScroll);
-    
+
         return () => window.removeEventListener("scroll", handleScroll);
-      }, []);
+    }, []);
 
     return (
         <>
             <div className="">
-                <div className={`Navbar ${scrolled ? "navbar-scrolled" : ""}`}>
+                <div className={`Navbar ${(scrolled || isOpen) ? "navbar-scrolled" : ""}`}>
                     <a href="#">
-                    <img className="logo-menu" src={logo} alt="logo"></img>
+                        <img className="logo-menu" src={logo} alt="logo"></img>
                     </a>
+
                     <div className={`nav-items ${isOpen && "open"}`}>
                         <a href="/home">Home</a>
                         <a href="/servicios">Servicios</a>

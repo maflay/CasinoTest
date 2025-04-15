@@ -72,4 +72,15 @@
   .purple-button:hover {
     background-color: rgb(100, 0, 200);
   }
-  
+  @media (min-width: 701px) {
+    .card {
+      width: 8000px;
+      height: 500px;
+      border-radius: 50px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+    }
+  }

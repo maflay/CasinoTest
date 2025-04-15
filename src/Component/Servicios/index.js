@@ -1,5 +1,5 @@
 import React from "react";
-import '../../Styles/servicio.css'
+import './servicio.css'
 import casaladdin from '../../resources/fondo.jpg'
 import Division from '../../resources/Division-completa.png'
 import Maquina1 from '../../resources/Maquina1V2.png'

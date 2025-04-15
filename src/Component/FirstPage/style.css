@@ -17,3 +17,13 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    .hero-section {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top;
+      padding-top: 60px;
+    }
+  }
+  
