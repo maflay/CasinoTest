@@ -13,6 +13,7 @@ export default function SecondPage() {
           <form className="contact-form">
             <input type="email" placeholder="Correo electrónico" required />
             <input type="tel" placeholder="Teléfono" required />
+            <button className="purple-button">Enviar</button>
           </form>
         </div>
       </div>

@@ -13,8 +13,7 @@ export default function ThirdPage() {
         <div className="card-divider" />
         <div className="card-content">
           <p>
-            Esta es una descripción breve sobre el contenido de esta tarjeta.
-            Puedes editar este texto más adelante según tus necesidades.
+            Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,
           </p>
           <button className="purple-button">Saber más</button>
         </div>
@@ -27,8 +26,8 @@ export default function ThirdPage() {
         <div className="card-divider" />
         <div className="card-content">
           <p>
-            Otra descripción informativa para esta sección. Puedes cambiar este
-            texto en cualquier momento.
+          Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,Prueba de text,
+
           </p>
           <button className="purple-button">Saber más</button>
         </div>
