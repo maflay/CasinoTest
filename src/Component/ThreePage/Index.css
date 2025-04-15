@@ -72,7 +72,7 @@
   .purple-button:hover {
     background-color: rgb(100, 0, 200);
   }
-  @media (min-width: 701px) {
+  /* @media (min-width: 701px) {
     .card {
       width: 8000px;
       height: 500px;
@@ -83,4 +83,4 @@
       display: flex;
       flex-direction: column;
     }
-  }
+  } */
