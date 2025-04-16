@@ -1,4 +1,4 @@
-import ImgTarjeta from '../../resources/Recurso-1@2x.png';
+import ImgTarjeta from '../../resources/Recurso-1@2x.jpg';
 import './Index.css';
 
 function Index() {

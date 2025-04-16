@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './Index.css';
 
 function Index() {
-    const totalSlides = 5;
+    const totalSlides = 3;
   const [currentSlide, setCurrentSlide] = useState(1);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ function Index() {
   
   return (
     <div className='contenidoslider'>
-      {[1, 2, 3, 4, 5].map((i) => (
+      {[1, 2, 3].map((i) => (
         <React.Fragment key={i}>
           <input
             type="radio"

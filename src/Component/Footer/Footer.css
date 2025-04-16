@@ -68,6 +68,12 @@
     padding:  0px 0px 0px 0px;
 }
 
+
+.img-footer{
+  width: 100%;
+  background-color: black;
+}
+
 @media (max-width :600px) {
 
   
