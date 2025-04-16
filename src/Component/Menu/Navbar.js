@@ -26,11 +26,11 @@ function Navbar() {
                     </a>
 
                     <div className={`nav-items ${isOpen && "open"}`}>
-                        <a href="/home">Home</a>
-                        <a href="/servicios">Servicios</a>
-                        <a href="/intereses">intereses</a>
-                        <a href="/nosotros">Nosotros</a>
-                        <a href="/login">Login</a>
+                        <a href="/home">Inicio</a>
+                        <a href="/servicios">Casinos</a>
+                        <a href="/intereses">Promociones</a>
+                        <a href="/nosotros">Club navegantes</a>
+                        <a href="/login">Contacto</a>
                     </div>
                     <div className={`nav-toggle ${isOpen && "open"}`}
                         onClick={() => setIsOpen(!isOpen)}>

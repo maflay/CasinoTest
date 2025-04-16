@@ -1,20 +1,16 @@
 // src/components/Footer.js
 import "./Footer.css";
 import logo from '../../resources/marcopolo.png';
-import { FaFacebookF,FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 export default function Footer() {
   return (
     <footer className="footer">
 
+     
+      <br />
       <div className="footer-content">
-        <div className="footer-logo">
-          <a href="#">
-            <img src={logo} alt="logo"></img>
-          </a>
-        </div>
-
         <div className="footer-section">
           <h3>Nosotros</h3>
           <ul>
@@ -40,6 +36,12 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <br />
+      <div className="footer-logo">
+        <a href="#">
+          <img src={logo} alt="logo"></img>
+        </a>
+      </div>
       <div className="footer-icons">
         <a href="#">
           <FaFacebookF />
@@ -48,14 +50,14 @@ export default function Footer() {
           <BsTwitterX />
         </a>
         <a href="#">
-        <FaYoutube />
+          <FaYoutube />
         </a>
         <a href="#">
-        <FaInstagram />
+          <FaInstagram />
         </a>
       </div>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <div className="footer-bottom">
         <p>COPYRIGHT &copy; {new Date().getFullYear()} Casino Marco polo. Todos los derechos reservados.</p>
       </div>
