@@ -65,6 +65,11 @@
     transition: background-color 0.3s ease;
 }
 
+.container-asociar .btn-asociar:hover {
+    background-color: #5000fc;
+    color: white;
+}
+
 .content-asociar .bg1 {
     background-image: url(../../resources/Recurso-7@2x.png);
 }
