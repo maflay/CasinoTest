@@ -1,4 +1,3 @@
-import ImagenInicio from '../../resources/fondo.jpg';
 import '../FirstPage/style.css'
 import Navbar from '../Menu/Navbar';
 

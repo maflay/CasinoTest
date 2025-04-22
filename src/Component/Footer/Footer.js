@@ -1,48 +1,68 @@
 // src/components/Footer.js
 import "./Footer.css";
 import logo from '../../resources/marcopolo.png';
+import Vigilado from '../../resources/Recurso-10.png';
+import Aladdin from '../../resources/Recurso-11.png';
+import Coljuegos from '../../resources/Recurso-12.png';
 import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 export default function Footer() {
   return (
     <footer className="footer">
-
-     
-      <br />
+      <div className="footer-subscriber">
+        <label>Suscríbete y recibe nuestras noticias</label>
+        <input type="text" id="email" />
+      </div>
       <div className="footer-content">
+        <div className="footer-logo">
+          <a href="#">
+            <img src={logo} alt="logo"></img>
+          </a>
+          <br />
+          <label>Cali, Bogotá, Barranquilla</label>
+          <label>contacto@marcopolo.com</label>
+        </div>
         <div className="footer-section">
-          <h3>Nosotros</h3>
           <ul>
-            <li><a href="/nosotros">Quiénes somos</a></li>
-            <li><a href="/equipo">Nuestro equipo</a></li>
-            <li><a href="/historia">Nuestra historia</a></li>
+            <li><a href="/equipo">Equipo</a></li>
+            <li><a href="/estudios">Estudios</a></li>
+            <li><a href="/novedades">Novedades</a></li>
+            <li><a href="/casinos">Casinos</a></li>
+            <li><a href="/sostenibilidad">Sostenibilidad</a></li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3>Servicios</h3>
           <ul>
-            <li><a href="/servicios">Consultoría</a></li>
-            <li><a href="/soporte">Soporte técnico</a></li>
-            <li><a href="/desarrollo">Desarrollo web</a></li>
+            <li><a href="/nosotros">Nosotros</a></li>
+            <li><a href="/marcopolo">Marco Polo</a></li>
+            <li><a href="/aladdin">Aladdin</a></li>
+            <li><a href="/aprendeajugar">Aprende a jugar</a></li>
+            <li><a href="/expasion">Expasión</a></li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3>Contacto</h3>
           <ul>
-            <li><a href="mailto:info@tusitio.com">Info@MarcoPolo.com</a></li>
-            <li><a href="tel:+573001112233">+57 300 111 2233</a></li>
-            <li><a href="/contacto">Formulario</a></li>
+            <li><a href="/dealerfluencer">Dealerfluencer</a></li>
+            <li><a href="/globalambassadors">Global Ambassadors</a></li>
+            <li><a href="/novedades">Novedades</a></li>
+            <li><a href="/clubw">CLUBW</a></li>
           </ul>
         </div>
       </div>
-      <br />
-      <div className="footer-logo">
-        <a href="#">
-          <img src={logo} alt="logo"></img>
-        </a>
+      <div className="footer-logos-legales">
+        <div>
+          <img src={Vigilado} />
+        </div>
+        <div>
+          <img src={Aladdin} />
+        </div>
+        <div>
+          <img src={Coljuegos} />
+        </div>
       </div>
-      <div className="footer-icons">
+
+      {/* <div className="footer-icons">
         <a href="#">
           <FaFacebookF />
         </a>
@@ -55,11 +75,9 @@ export default function Footer() {
         <a href="#">
           <FaInstagram />
         </a>
-      </div>
-      <br />
-      <br />
+      </div> */}
       <div className="footer-bottom">
-        <p>COPYRIGHT &copy; {new Date().getFullYear()} Casino Marco polo. Todos los derechos reservados.</p>
+        <p>TODOS LOS DERECHOS RESERVADOS {new Date().getFullYear()}.</p>
       </div>
     </footer>
   );

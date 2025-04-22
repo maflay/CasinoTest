@@ -76,7 +76,7 @@
 .promocion-container .purple-button {
   align-self: flex-start;
   padding: 8px 16px;
-  background-color: #5000fc;
+  background-color: #5100ff;
   color: white;
   border: none;
   border-radius: 10px;
@@ -88,7 +88,7 @@
 }
 
 .promocion-container .purple-button:hover {
-  background-color: rgb(100, 0, 200);
+  background-color: #31018a;
 }
 
 

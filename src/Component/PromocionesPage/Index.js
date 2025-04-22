@@ -8,10 +8,10 @@ export default function ThirdPage() {
     <div className="promocion-container">
       <br />
       <br />
-        <div className="promo">
-          <h1>PROMOCIONES</h1>
-        </div>
-        <br />
+      <div className="promo">
+        <h1>PROMOCIONES</h1>
+      </div>
+      <br />
       <div className="card-view">
         <div className="card">
           <div className="card-image">
@@ -21,11 +21,11 @@ export default function ThirdPage() {
           <div className="card-content">
             <h1>Ruleta de premios</h1>
             <p>
-              En Casino Marco Polo encuéntras<br />
-              más que casino, encuentras <br />
-              diversión, entretenimiento, amigos <br />
-              y muchos espacios para que la <br />
-              emoción nunca se detenga. <br />
+              En Casino Marco Polo encuéntras
+              más que casino, encuentras
+              diversión, entretenimiento, amigos
+              y muchos espacios para que la
+              emoción nunca se detenga.
             </p>
             <button className="purple-button">Ver más</button>
           </div>
@@ -42,7 +42,7 @@ export default function ThirdPage() {
             </h1>
             <p>
               En Casino Marco Polo encuéntras
-              más que casino, encuentras 
+              más que casino, encuentras
               diversión, entretenimiento, amigos
               y muchos espacios para que la
               emoción nunca se detenga.

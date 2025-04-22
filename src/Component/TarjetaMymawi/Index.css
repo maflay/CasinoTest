@@ -20,12 +20,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
 }
 
-.container-tarjeta .box-left-tarjeta .box-left-tarjeta-content {
+/* .container-tarjeta .box-left-tarjeta .box-left-tarjeta-content {
     padding: 0px 100px 0px 150px;
-}
+} */
 
 .container-tarjeta .box-left-tarjeta .box-left-tarjeta-content h1 {
     font-size: 100px;
@@ -57,12 +56,17 @@
     transition: background-color 0.3s ease;
 }
 
+.container-tarjeta .btn-tarjeta:hover {
+    background-color: white;
+    color: #5000fc;
+}
+
 .content-tarjeta .bg1 {
     background-image: url(../../resources/Recurso-7@2x.png);
 }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 950px) {
     .container-tarjeta {
         background-color: #f5f5f5;
     }
